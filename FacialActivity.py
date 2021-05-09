@@ -6,7 +6,7 @@ import numpy as np
 from datetime import datetime, date
 import cv2
 Copyright = """
-                  Copyright 2020 © John Melody Me
+                  Copyright 2021 © John Melody Me 
 
       Licensed under the Apache License, Version 2.0 (the "License");
       you may not use this file except in compliance with the License.
@@ -21,7 +21,7 @@ Copyright = """
       limitations under the License.
       @Author : John Melody Me
       @Copyright: John Melody Me & Tan Sin Dee © Copyright 2020
-      @INPIREDBYGF: Cindy Tan Sin Dee <3
+
 """
 
 f = open("output.txt", "a")
@@ -39,7 +39,7 @@ with open("labels.pickle", "rb") as file:
 capture = cv2.VideoCapture(0)
 print(capture.read())
 print(Copyright)
-title = "Facial Recognition -John Melody-"
+title = "Facial Recognition Programme - John Melody"
 # Machine.system("python training_faces.py") # Uncomment this if e rror
 # Capture Frame by Frame
 while (True):
